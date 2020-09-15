@@ -73,7 +73,7 @@ namespace MC18_S1
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Auditor Service");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Auditor Service devops");
             });
 
             //app.UseEndpoints(endpoints =>
