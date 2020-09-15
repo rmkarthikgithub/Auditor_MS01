@@ -15,10 +15,7 @@ namespace MC18_S1.Controllers
     {
         private readonly ILogger<AuditController> _logger;
         private IDataAccess<AuditorUser> ctx;
-        //public AuditController()
-        //{
-        //    this.ctx = new DataAccessRepository<Auditors>();
-        //}
+        
         public AuditController(ILogger<AuditController> logger, IDataAccess<AuditorUser> dataAccess)
         {
             _logger = logger;
